@@ -1,0 +1,6 @@
+{
+  "name": "UrjaGrid - India Fuel Retail & EV White-Spot Network Planner",
+  "description": "Enterprise-grade Location Intelligence & White-Spot Network Planning Platform for Indian Fuel Retail (IOCL, BPCL, HPCL, Jio-bp, Nayara, Shell), EV Fast Charging (CCS2/Bharat DC), CNG/CBG forecourts, and NHAI corridor underwriting.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Leaflet Stacking Context & Overlap Fixes */
+.leaflet-container {
+  z-index: 1 !important;
+  font-family: inherit;
+  outline: none;
+}
+
+.leaflet-pane {
+  z-index: 10 !important;
+}
+
+.leaflet-tile-pane {
+  z-index: 11 !important;
+}
+
+.leaflet-overlay-pane {
+  z-index: 12 !important;
+}
+
+.leaflet-shadow-pane {
+  z-index: 13 !important;
+}
+
+.leaflet-marker-pane {
+  z-index: 14 !important;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 15 !important;
+}
+
+.leaflet-popup-pane {
+  z-index: 16 !important;
+}
+
+.leaflet-control {
+  z-index: 20 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 20 !important;
+}
+
+/* Custom Leaflet Popup Styling in Purple & White Theme */
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #1e1138 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 20px 25px -5px rgba(88, 28, 135, 0.4), 0 8px 10px -6px rgba(88, 28, 135, 0.3) !important;
+  border: 1.5px solid #a855f7 !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+  border: 1px solid #a855f7 !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #130924;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7e22ce;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9333ea;
+}
